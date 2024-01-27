@@ -6,10 +6,19 @@ body {
 }
 
 .site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #fff;
 }
 
+.site-header-actions{
+  display: flex;
+  align-items: center;
+}
+
 .sitenav-list {
+  display: flex;
   list-style: none;
 }
 
@@ -33,6 +42,9 @@ body {
 }
 
 .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -58,6 +70,11 @@ hero-content {
   height: 510px;
 }
 
+.features-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
 
 .features-heading {
   width: 440px;
@@ -86,8 +103,11 @@ font-family: "Roboto condensed", "Roboto", "Arial", sans-serif;
 }
 
 .promo{
-background-color: #252420;
-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252420;
+  color: #fff;
 }
 
 .pr-content{
@@ -111,17 +131,31 @@ color: #fff;
   object-fit: cover;
 }
 
+.site-footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .site-footer{
   background-color: #f8f8f8;
 }
 
+
 .site-footer ul {
   list-style: none  ;
+}
+.socials{
+  display: flex;
+  align-items: center;
 }
 
 .site-footer-divider{
   background-color: rgba(37, 36, 32, 0.5);
   height: 2px;
+}
+.site-footer-bottom{
+  display: flex;
 }
 
 .site-footer-link-list{
